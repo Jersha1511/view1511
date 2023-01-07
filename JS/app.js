@@ -67,9 +67,9 @@ function getImages(){
  items.push( "<hr />");
 // items.push("<img src='"+BLOB_ACCOUNT + val["filePath"] +"' width='400'/> <br />")
 items.push("<video controls width='320' height =320'> <source src='" + BLOB_ACCOUNT + val["filepath"] + "' height='40'/> </video> <br />");
- items.push( "File : " + val["Title"] + "<br />");
+ items.push( "File is " + val["Title"] + "<br />");
  items.push( "Publisher is " + val["Publisher"] + "<br />"+ "Producer is "+val["Producer"]+"<br />");
- items.push( "Genre is " + val["Genre"] + "<br />"+ "Age Rating is: "+val["AgeRating"]+"<br />");
+ items.push( "Genre is " + val["Genre"] + "<br />"+ "Age Rating is "+val["AgeRating"]+"<br />");
  items.push( "<hr />");
  });
  //Clear the assetlist div 
